@@ -5,13 +5,13 @@ SevaChain is a decentralized crowdfunding platform built on Ethereum, leveraging
 ----
 
 # **🏆 Problem Statement**
-In India, fraudulent charities exploit donors, leading to fund misuse and lack of trust in aid systems. SevaChain addresses this by using blockchain to automate fund disbursement, track transactions in real-time, and verify donors and beneficiaries using Decentralized Identity (DID).
+In India, fraudulent charities exploit donors leading to fund misuse and lack of trust in aid systems. SevaChain addresses this by using blockchain to automate fund disbursement, track transactions in real-time with immutable audit trails and automated geolocation verification. It ensures  donors are legitimate, preventing identity spoofing or duplicate registrations using decentralized identity (ZKP). Preventing fund misuse using Decentralized Identity (DID).
 
 -----
 
 # **💡 Key Features**
-- ✔️ Smart Contract-Based Fund Disbursement – Automates immediate aid transfers, preventing delays.
-- ✔️ Real-Time Tracking – Immutable audit trails enhance transparency and donor confidence.
+- ✔️ Smart Contract Based Fund Disbursement – Automates immediate aid transfers preventing delays.
+- ✔️ Real Time Tracking – Immutable audit trails enhance transparency and donor confidence.
 - ✔️ Automated Geolocation Verification – Ensures authenticity of beneficiaries through real-time GPS tracking.
 - ✔️ Decentralized Identity (DID) & Zero-Knowledge Proofs (ZKP) – Prevents identity spoofing and duplicate donor registrations.
 - ✔️ Multi-Factor Fraud Prevention – Verifies aid requests with real-time weather data, ensuring legitimacy.
@@ -85,6 +85,8 @@ function getCampaignsByOwner(address _owner) public view returns (Campaign[] mem
 
 # **🎯 Target Market**
 - Government Relief Funds (PMNRF, CMRF)
-- Charity Platforms & NGOs
-- Crypto Donors & Web3 Philanthropists
+- Charity Platforms
+- NGOs & Web3 Communities
+- Crypto Donors
 - General Public Seeking Transparent Donations
+- International Relief Organizations
